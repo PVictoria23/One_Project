@@ -43,6 +43,13 @@ public class Program {
         System.out.println(v);
         System.out.println(m);
 
+        double w = 10.0 / 4;
+        System.out.println(w);
+
+
+
+
+
 
     }
 }

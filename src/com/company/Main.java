@@ -2,51 +2,32 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        double w = 10.0 / 4;
-        System.out.println(w);
 
-        int a = 33;
-        int b = 5;
-        int c = a % b;
-        int d = 22 % 4;
+        int a = 10;
+        int b = 4;
+        boolean c = a != b;
+        boolean d = a != 10;
         System.out.println(c);
         System.out.println(d);
 
-        int t =5;
-        int y =++t;
-        System.out.println(t);
-        System.out.println(y);
-
-        int q = 10;
-        int e= q++;
-        System.out.println(q);
-        System.out.println(e);
-
-        int r = 8;
-        int u = --r;
-        System.out.println(r);
-        System.out.println(u);
-
-        int p = 14;
-        int x = p--;
+        int i = 20;
+        int o=15;
+        boolean p= i>o;
         System.out.println(p);
-        System.out.println(x);
 
-        int v = 8;
-        int n = 7;
-        int m = v + 5 * ++n;
-        System.out.println(m);
-
-        int z = 10;
-        int o = 4;
-        boolean s = z == o;
-        boolean f = z == 10;
-        System.out.println(s);
+        int s = 20;
+        int g =15;
+        boolean f= s < g;
         System.out.println(f);
+
+        boolean k = 10 >= 10;
+        boolean l = 10 >= 4;
+        boolean z = 10 >= 20;
+        System.out.println(k);
+        System.out.println(l);
+        System.out.println(z);
+
         
-
-
-
 
 
 
