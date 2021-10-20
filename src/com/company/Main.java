@@ -8,16 +8,18 @@ public class Main {
         boolean c = a != b;
         boolean d = a != 10;
         System.out.println(c);
+
+
         System.out.println(d);
 
         int i = 20;
-        int o=15;
-        boolean p= i>o;
+        int o = 15;
+        boolean p = i > o;
         System.out.println(p);
 
         int s = 20;
-        int g =15;
-        boolean f= s < g;
+        int g = 15;
+        boolean f = s < g;
         System.out.println(f);
 
         boolean k = 10 >= 10;
@@ -27,10 +29,24 @@ public class Main {
         System.out.println(l);
         System.out.println(z);
 
-        
+        int num = 8;
+        switch (num) {
 
+            case 1:
+                System.out.println("число равно 1");
+                break;
+            case 8:
+                System.out.println("число равно 8");
+                num++;
 
+            case 9:
+                System.out.println("число равно 9");
+                break;
+            default:
+                System.out.println("число не равно 1, 8, 9");
+
+        }
+        }
 
 
     }
-}
